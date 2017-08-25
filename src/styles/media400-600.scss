@@ -1,0 +1,27 @@
+@media all and (min-width: 400px) and (max-width: 600px){
+	.main-block1-banner {
+	    height: 170px;
+	    span {
+		    font-size: 0.9em;
+		}
+		ul {
+		    font-size: 0.7em;
+		}
+	}
+	
+	.main-block1-form { 
+    	height: 238px;
+    	width: 80%;
+	    margin-left: 10%;
+	    margin-top: 1%;
+    	&-header img {
+		    width: 15%;
+		}
+		&-body {
+		    height: 180px;
+		}
+	}
+	.main-block6-text {
+		width: 60%;
+	}
+}
