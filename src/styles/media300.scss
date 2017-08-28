@@ -13,9 +13,12 @@
     	font-size: 1em;
 
 	}
-
+	.main-block1{
+		overflow: hidden;
+	}
 	.main-block1-banner {
  	    height: 165px;
+ 	    margin-bottom: 10px;
  	    span {
     		font-size: 0.7em;
 		}
@@ -30,9 +33,12 @@
 		width: 100%;
 	    margin-top: 0;
 	    margin-left: 0;
-	    height: 220px;
+	    height: 230px;
+		&-header{
+	        height: 65px;
+		}
 	    &-header span {
-		    margin-top: 8px;
+		    margin-top: -50px;
 		    font-size: 1em;
 		}
 		&-body {
@@ -50,10 +56,12 @@
 	}
 	.main-block2 {
 		position: relative;
+		margin-bottom: 10px;
+		overflow: hidden;
 	}
 	.main-block2-stats {
 		position: absolute;
-		bottom: 0;
+		bottom: 8px;
 		right: 6%;
 		width: 52%;
 		height: auto;
@@ -67,6 +75,9 @@
 	    margin-top: 8px;
 	    margin-left: 10%;
 	}
+	.main-block3{
+		overflow: hidden;
+	}
 	.main-block3 ul li{
 		width: 96%;
 	}
@@ -76,6 +87,7 @@
     	font-size: 1.1em;
 	}
 	.main-block4 {
+		overflow: hidden;
 	    padding: 3% 6.8%;
 	    width: 90.5%;
 	    height: 100px;
@@ -88,6 +100,9 @@
 		   		font-size: 0.5em;
 			}
 		}
+	}
+	.main-block5{
+		overflow: hidden;
 	}
 	.main-block5-one > li{
 		width: 46.5%;
@@ -102,10 +117,23 @@
 	    height: 53px;
 	    font-size: 0.8em;
 	}
-	.main-block6-text {
-		width: 60%;
+	.main-block7{
+		overflow: hidden;
+	}
+	.main-block6 {
+		overflow: hidden;
+		&-text {
+			width: 58%;
+		}
+		&-text span:nth-child(1) {
+	    	font-size: 1.1em !important;
+	    }
+	    .main-block2-img span {
+	    	margin-top: 0px;
+		}
 	}
 	.main-block8{
+		overflow: hidden;
 		padding-top: 20px;
 		&-img img {
 		    width: 61px;
@@ -120,15 +148,19 @@
 	.main-block11 span:first-child {
 	    font-size: 1.05em;
 	}
+	.main-block9{
+		overflow: hidden;
+	}
 	.main-block9 ul li span {
 	    width: 82%;
 	}
 	.main-block9 ul li .main-block9-img img {
-	    width: 50px;
-	    height: 50px;
+	    width: 48px;
+	    height: 48px;
 	    margin-top: 7%;
 	}
 	.main-block10 {
+		overflow: hidden;
 	    padding: 4% 1%;
 	    width: 98.0%;
 	    margin-left: 0%;
@@ -142,6 +174,7 @@
 			width: 45%;
 			span {
 			    font-size: 0.6em;
+			    display: inline-block;
 			}
 		} 
 
@@ -149,6 +182,9 @@
 	.main-block10 .main-block10-span{
 		font-size: 1.1em;
 		margin: 10px 0 10px 0;
+	}
+	.main-block11{
+		overflow: hidden;
 	}
 	.main-block11-text span{
 		font-size: 1em;
@@ -173,12 +209,22 @@
 	.main-block7 span{
 		font-size: 1.1em;
 	}
+	.main-block12{
+		overflow: hidden;
+	}
 	.main-block7 > button {
 	    width: 58%;
 	}
-	.footer-check img{
-		width: 200px;
-		margin-left: -2%;
+	footer{
+		text-align: center;
+		&-check img{
+			width: 200px;
+			margin-left: -2%;
+		}
+		.btn{
+			display: inline-block;
+		}
 	}
+	
 
 }

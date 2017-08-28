@@ -82,21 +82,22 @@ main{
 }
 .main-block1-form-header{
     background: #eee;
-    height: 86px;
+    height: 95px;
 }
 .main-block1-form-header img{
     display: inline-block;
     width: 40%;
-    margin-left: -10px;
+    margin-left: -15px;
+    margin-top: -10px;
 }
 .main-block1-form-header span{
-    width: 78%;
+    width: 80%;
     display: inline-block;
     text-align: -webkit-center;
     vertical-align: top;
     color: #555;
-    margin-left: 47px;
-    margin-top: -81px;
+    margin-left: 60px;
+    margin-top: -90px;
     font-size: 1em;
     font-weight: bold;
 }
@@ -175,6 +176,12 @@ main{
     margin-left: -10px;
     font-size: 1.2em;
     margin-bottom: 25px;
+}
+.orange-a{
+    text-decoration: none;
+    padding-top: 5px;
+    height: 35px;
+    display: inline-block;
 }
 
 
@@ -616,8 +623,8 @@ main{
 /*________________________________________________________________________________________________________*/
 
 footer{
+    overflow: hidden;
     border-top: 5px solid #cccccc;
-    border-bottom: 5px solid #cccccc;
     color: rgba(255, 255, 255, 0.4);
     padding: 0 10%;
     width: 80%;
@@ -764,10 +771,6 @@ footer{
     .main-block5 .main-block5-title{
         font-size: 1.05em;
     }
-    // .main-block5-sub-title{
-    //     font-size: 1em;
-    //     font-weight: bold;
-    // }
     .main-block5-desc{
         height: 83px;
         font-size: 0.9em;
@@ -799,7 +802,7 @@ footer{
             margin-left: 20%;
         }
         .main-block6-text{
-            width: 60%;
+            width: 58%;
 
         }
         .main-block6-text span:nth-child(1){
@@ -1062,6 +1065,7 @@ footer{
     }
     .main-block10 ul li span{
         font-size: 0.7em;
+        display: inline-block;
     }
     .main-block10 ul li .main-block10-img img{
         width: 130px;

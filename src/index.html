@@ -19,11 +19,11 @@
 </head>
 <body>
     <header class="header">
-        <div class="burger">
+        <!-- <div class="burger">
             <div></div>
             <div></div>
             <div></div>
-        </div>
+        </div> -->
         <span class="header-cg">
             <a href="#"><span class="red-light">CONTEXT</span>GEAR</a>
         </span>
@@ -86,7 +86,7 @@
                 <span>
                     Выгрузка статистики 5 наших кампаний
                 </span>
-                <button class="orange-btn">⇩ СКАЧАТЬ</button>
+                <a class="orange-btn orange-a" href="javascript:if(confirm('http://www.dropbox.com/s/rxh9y7fh3971fvz/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0.rar?dl=1  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.dropbox.com/s/rxh9y7fh3971fvz/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0.rar?dl=1'">⇩ СКАЧАТЬ</a>
             </div>
         </div>
         <div class="main-block3">
@@ -158,7 +158,7 @@
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">9 990 руб.</span>
-                        <button class="orange-btn">ЗАКАЗАТЬ</button>
+                        <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ</button>
                     </div>
                 </li>
                 <li>
@@ -175,7 +175,7 @@
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">14 990 руб.</span>
-                        <button class="orange-btn">ЗАКАЗАТЬ</button>
+                        <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ</button>
                     </div>
                 </li>
                 <li>
@@ -195,7 +195,7 @@
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">19 990 руб.</span>
-                        <button class="orange-btn">ЗАКАЗАТЬ</button>
+                        <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ</button>
                     </div>                  
                 </li>
                 <li>
@@ -216,7 +216,7 @@
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">29 990 руб.</span>
-                        <button class="orange-btn">ЗАКАЗАТЬ</button>
+                        <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ</button>
                     </div>                  
                 </li>
             </ul>
@@ -233,7 +233,7 @@
             <span>
                 Чем больше ключевых фраз, тем больше целевых переходов по меньшей цене вы получите.
             </span>
-            <button class="orange-btn">ПОДОБРАТЬ ТАРИФ</button>
+            <button class="orange-btn" onclick="modalFunction()">ПОДОБРАТЬ ТАРИФ</button>
         </div>
         <div class="main-block8">
             <span>КАК МЫ ВЕДЕМ КАМПАНИИ</span>
@@ -354,7 +354,7 @@
             <span class="main-block10-span">
                 Закажите бесплатную консультацию, чтобы приступить к работе!
             </span>
-            <button class="orange-btn">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+            <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </div>
         <div class="main-block11">
             <span>НАШЕ ПОРТФОЛИО</span>
@@ -437,7 +437,7 @@
                 </li>
             </ul>
             <span class="main-block11-span">Хотите добиться таких же результатов? Получите бесплатную консультацию!</span>
-            <button class="orange-btn">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+            <button class="orange-btn" onclick="modalFunction()">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </div>
         <!--div class="main-block12">
             <span>НАШИ КЛИЕНТЫ</span>
@@ -486,12 +486,13 @@
     </main>
     <footer>
         <div class="header-contact">
-            <span class="header-email">support@contextgear.ru </span> </br>
+            <span class="header-email" style="color: rgba(255, 255, 255, 0.4);">
+            support@contextgear.ru </span> </br>
             <span class="header-phone">+7 (383) 255-80-18 </span>
         </div>
-        <button class="btn header-btn grey-btn" style="margin-top: 20px;">ЗАКАЗАТЬ ЗВОНОК</button>
+        <button class="btn header-btn grey-btn" style="margin-top: 20px;" onclick="modalFunction()">ЗАКАЗАТЬ ЗВОНОК</button>
         <span style="margin-top: 10px;">НАШ АДРЕС:</span>
-        <span>г. Новосибирск, Красный проспект 1, офис 502</span>
+        <span style="color: #fff;">г. Новосибирск, Красный проспект 1, офис 502</span>
         <div class="footer-check">
             <span>Способы оплаты:</span>
             <img src="./images/17558/image4344829.png">
