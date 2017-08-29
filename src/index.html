@@ -16,14 +16,11 @@
     <meta property="og:description" content="Настройка Яндекс Директ в короткий срок, CTR 5-15%, клики дешевле на 20-40%!" />
      <link rel="shortcut icon" href="./images/17558/flogo1.png" type="image/x-icon">
     <script type="text/javascript" src="./main.js"></script>
+    <script src="./cleave.min.js"></script>
+    <script src="./cleave-phone.ru.js"></script>
 </head>
 <body>
     <header class="header">
-        <!-- <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div> -->
         <span class="header-cg">
             <a href="#"><span class="red-light">CONTEXT</span>GEAR</a>
         </span>
@@ -71,7 +68,7 @@
                     <form id="mainForm" action="thanks.php" method="POST">
                         <input type="text" name="name" placeholder="Имя*" required> 
                         <input type="email" name="email" placeholder="Email*" required> 
-                        <input type="phone" name="phone" placeholder="Телефон*" required>
+                        <input type="phone" name="phone" class="input-phone" id="phone" placeholder="Телефон*" required>
                         <input type="submit" name="submit" value="ОТПРАВИТЬ">
                     </form>
                 </div>
@@ -150,11 +147,11 @@
                     <span class="main-block5-title">Минимальный</span>
                     <span class="main-block5-desc">Тариф для теста ниши</span>
                     <ul class="main-block5-two">
-                        <li>до 200 ключевых фраз</li>
-                        <li>до 200 объявлений</li>
+                        <li><strong> до 200 ключевых фраз</strong></li>
+                        <li><strong>до 200 объявлений</strong></li>
                         <li>Продающие тексты</li>
                         <li>Рекомендации для сайта</li>
-                        <li>Ведение Я.Директ: 7 дней</li>
+                        <li>Ведение Я.Директ: <strong>7 дней</strong></li>
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">9 990 руб.</span>
@@ -165,13 +162,13 @@
                     <span class="main-block5-title">Стандартный</span>
                     <span class="main-block5-desc green">Тариф для узкой ниши или для бизнеса в маленьких регионах</span>
                     <ul class="main-block5-two">
-                        <li>до 500 ключевых фраз</li>
-                        <li>до 500 объявлений</li>
+                        <li><strong>до 500 ключевых фраз</strong></li>
+                        <li><strong>до 500 объявлений</strong></li>
                         <li>Продающие тексты</li>
                         <li>Рекомендации для сайта</li>
                         <li>Подключение РСЯ</li>
                         <li>Гарантия результатов</li>
-                        <li>Ведение Я.Директ: 14 дней</li>
+                        <li>Ведение Я.Директ: <strong>14 дней</strong></li>
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">14 990 руб.</span>
@@ -182,8 +179,8 @@
                     <span class="main-block5-title">Оптимальный</span>
                     <span class="main-block5-desc orange">Тариф-хит! Подходит для большинства ниш бизнеса</span>
                     <ul class="main-block5-two">
-                        <li>до 1000 ключевых фраз</li>
-                        <li>до 1000 объявлений</li>
+                        <li><strong>до 1000 ключевых фраз</strong></li>
+                        <li><strong>до 1000 объявлений</strong></li>
                         <li>Продающие тексты</li>
                         <li>Рекомендации для сайта</li>
                         <li>Подключение РСЯ</li>
@@ -191,7 +188,7 @@
                         <li>Настройка Метрики</li>
                         <li>UTM-метки</li>
                         <li>Гарантия результатов</li>
-                        <li>Ведение Я.Директ: 1 месяц</li>
+                        <li>Ведение Я.Директ:<strong> 1 месяц</strong></li>
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">19 990 руб.</span>
@@ -202,8 +199,8 @@
                     <span class="main-block5-title">Максимальный</span>
                     <span class="main-block5-desc red">Для интернет-магазинов и для тех, кто хочет захватить весь рынок!</span>
                     <ul class="main-block5-two">
-                        <li>до 1000 ключевых фраз</li>
-                        <li>до 1000 объявлений</li>
+                        <li><strong>до 1000 ключевых фраз</strong></li>
+                        <li><strong>до 1000 объявлений</strong></li>
                         <li>Продающие тексты</li>
                         <li>Рекомендации для сайта</li>
                         <li>Подключение РСЯ</li>
@@ -212,7 +209,7 @@
                         <li>UTM-метки</li>
                         <li>АБ-тестинг (+15% эффект.)</li>
                         <li>Гарантия результатов</li>
-                        <li>Ведение Я.Директ: 1 месяц</li>
+                        <li>Ведение Я.Директ:<strong> 1 месяц</strong></li>
                     </ul>
                     <div class="main-block5-bottom-block">
                         <span class="main-block5-price">29 990 руб.</span>
@@ -498,7 +495,7 @@
             <img src="./images/17558/image4344829.png">
         </div>
         <div>
-            <span>context-gear.ru</span></br>
+            <span>context-gear.ru</span>
             <span>Все права защищены (с)</span>
         </div>
             
@@ -513,7 +510,8 @@
                 <input type="text" name="name" placeholder="Имя*" required> 
                 <input type="email" name="email" placeholder="Email*" required> 
                 <input type="phone" name="phone" placeholder="Телефон*" required>
-                <input type="submit" name="submit" value="ОТПРАВИТЬ" onclick="disableModal()">
+                <input type="submit" name="submit" value="ОТПРАВИТЬ" ><!-- onclick="disableModal()" -->
+
             </form>
         </div>
     </div>

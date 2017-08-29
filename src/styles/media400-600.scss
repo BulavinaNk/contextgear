@@ -5,23 +5,61 @@
 		    font-size: 0.9em;
 		}
 		ul {
+			margin: -30% 58%;
 		    font-size: 0.7em;
 		}
 	}
-	
 	.main-block1-form { 
-    	height: 238px;
+    	height: 245px;
     	width: 80%;
 	    margin-left: 10%;
 	    margin-top: 1%;
-    	&-header img {
-		    width: 15%;
-		}
+	    &-header{
+	    	height: 65px;
+	    	img {
+			    width: 18%;
+			}
+			span{
+				margin-top: -65px;
+			}
+	    }
+    	
 		&-body {
 		    height: 180px;
 		}
 	}
+	.main-block2-stats{
+		width: 30%;
+		span{
+			width: 100%;
+		}
+		& > .orange-btn{
+			width: 85%;
+		}
+	}
+	.main-block5-price{
+		font-size: 1.1em;
+	}
+	.main-block5-one > li {
+	    height: 601px;
+	}
 	.main-block6-text {
-		width: 60%;
+		width: 77% !important;
+    	padding-right: 0;
+	}
+	.main-block10 button {
+	    width: 54%;
+	}
+
+	.main-block11 > button {
+	    width: 50%;
+	}
+	footer{
+		text-align: center;
+		.btn{
+			height: 40px;
+			margin: 0 auto;
+			display: block;
+		}
 	}
 }
