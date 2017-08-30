@@ -13,11 +13,11 @@ function disableModal(){
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-	console.log(document.getElementById("phone"));
-	var cleave = new Cleave(document.getElementById("phone"), {
-	    phone: true,
-	    phoneRegionCode: 'RU'
-	});
-
-	
+	for(let i=1; i<4; i++){
+		let id = "phone" + i;
+		let cleave1 = new Cleave(document.getElementById(id), {
+		    phone: true,
+		    phoneRegionCode: 'RU'
+		});
+	}	
 });
