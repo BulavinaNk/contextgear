@@ -14,7 +14,9 @@
 }
 
 
-
+body{
+    width: 100%;
+}
 
 
 /*________________________________________________________________________________________________________*/
@@ -35,10 +37,9 @@ main{
 }
 
 /*________________________________________________________________________________________________________*/
-
-
-
 .main-block1{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -131,6 +132,8 @@ main{
 /*________________________________________________________________________________________________________*/
 
 .main-block2{
+    max-width: 1200px;
+    margin: 0 auto;
     overflow: hidden;
     width: 100%;
     height: 150px;
@@ -192,6 +195,8 @@ main{
 /*________________________________________________________________________________________________________*/
 
 .main-block3{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     box-shadow: 2px 2px 1px 0px rgba(0, 0, 0,0.25);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -264,6 +269,8 @@ main{
 
 /*________________________________________________________________________________________________________*/
 .main-block5{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
@@ -344,6 +351,8 @@ main{
 /*________________________________________________________________________________________________________*/
 
 .main-block6{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     height: 150px;
     box-shadow: 2px 2px 1px 0px rgba(0, 0, 0,0.25);
@@ -382,6 +391,8 @@ main{
 
 /*________________________________________________________________________________________________________*/
 .main-block7{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     height: 135px;
     text-align: center;
@@ -510,6 +521,8 @@ main{
 }
 /*________________________________________________________________________________________________________*/
 .main-block11{
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
@@ -720,12 +733,12 @@ main{
     height: 100px;
     margin-right: 12px;
 }
-
 .main-block12-form{
     width: 40%;
     margin: 0 auto;
     .main-block1-form-header{
-        height: 60px;
+        padding: 5px 0;
+        height: 50px;
         & > span{
             margin-top: 2px;
             margin-left: 0;
@@ -735,6 +748,9 @@ main{
     }
     .main-block1-form-body{
         height: 250px;
+        input{
+            margin: 10px auto;
+        }
     }
 }
 
@@ -746,41 +762,45 @@ footer{
     color: rgba(255, 255, 255, 0.4);
     padding: 0 10%;
     width: 80%;
-    // height: 353px;
-    height: 240px;
+    height: 255px;
     background-color: #434343;
-    div:last-child{
-        margin-top: 3%;
-        text-align: center;
+    .footer-body{
+        max-width: 1200px;
+        margin: 0 auto;
+        div:last-child{
+            margin-top: 3%;
+            text-align: center;
+        }
+        .grey-btn{
+            background: #948383;
+            box-shadow: 0px 3px 1px 0px rgba(47, 36, 36, 0.75);
+            margin-left: 0;
+        }
+        .grey-btn:hover {
+            background: #2d2626;
+        }
+        .header-contact{
+            margin-top: 10px;
+            float: right;
+            width: 85%;
+        }
+        .grey-btn{
+            margin-top: 68px !important;
+            float: right;
+            display: block;
+        }
+        .header-contact button, span{
+            display: block;
+        }
+        .footer-check{
+            margin-top: 0px;
+        }
+        .footer-check img{
+            width: 315px;
+            margin-left: -2%;
+        }
     }
-    .grey-btn{
-        background: #948383;
-        box-shadow: 0px 3px 1px 0px rgba(47, 36, 36, 0.75);
-        margin-left: 0;
-    }
-    .grey-btn:hover {
-        background: #2d2626;
-    }
-    .header-contact{
-        margin-top: 10px;
-        float: right;
-        width: 85%;
-    }
-    .grey-btn{
-        margin-top: 68px !important;
-        float: right;
-        display: block;
-    }
-    .header-contact button, span{
-        display: block;
-    }
-    .footer-check{
-        margin-top: 10px;
-    }
-    .footer-check img{
-        width: 315px;
-        margin-left: -2%;
-    }
+    
 }
 
 @media all and (max-width: 800px)  {
@@ -791,24 +811,25 @@ footer{
     footer{
         height: 353px;
         text-align: center;
-        .btn{
-            height: 40px;
-            margin: 0 auto;
-            display: block;
-        }
-        .footer-check > span{
-            width: 100%;
-        }
-        .header-contact{
-            float: none;
-        }
-        .grey-btn{
-            float: none;
-            margin-top: 10px !important;
+        .footer-body{
+            .btn{
+                height: 40px;
+                margin: 0 auto;
+                display: block;
+            }
+            .footer-check > span{
+                width: 100%;
+            }
+            .header-contact{
+                float: none;
+            }
+            .grey-btn{
+                float: none;
+                margin-top: 10px !important;
+            }
         }
     }
     .main-block1 {
-
         &-banner {
             width: 100%;
             overflow: hidden;
@@ -1052,6 +1073,9 @@ footer{
 
     }
     .main-block12{
+        .main-block12-form{
+            width: 70%;
+        }
         &-logo{
             padding: 10px 0;
             img{
@@ -1165,7 +1189,6 @@ footer{
         padding: 3% 4%;
         width: 92%;
     }
-
     /*______________________________*/
     .main-block1-banner {
         height: 285px;

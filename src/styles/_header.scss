@@ -3,7 +3,10 @@
     width: 80%;
     height: 265px;
     background-color: #434343;
-
+    .header-body{
+        margin: 0 auto;
+        max-width: 1000px;
+    }
     &-cg {
         color: #fff;
         font-size: 1.5em;
