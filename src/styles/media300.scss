@@ -41,7 +41,7 @@
 			margin-top: -17px;
 		}
 	    &-header span {
-		    margin-top: -71px;
+		    margin-top: -70px;
 		    font-size: 1em;
 		}
 		&-body {
@@ -155,7 +155,8 @@
 	.main-block8 span:first-child,
 	.main-block9 span:first-child,
 	.main-block10 span:first-child,
-	.main-block11 span:first-child {
+	.main-block11 span:first-child,
+	.main-block12 span:first-child {
 	    font-size: 1.05em;
 	}
 	.main-block9{
@@ -220,7 +221,13 @@
 		font-size: 1.1em;
 	}
 	.main-block12{
+		margin-bottom: 0;
 		overflow: hidden;
+		.main-block12-span1,
+		.main-block12-span2{
+			font-size: 1.2em;
+		}
+		
 	}
 	.main-block7 > button {
 	    width: 58%;
@@ -243,6 +250,8 @@
 			margin-top: 10px !important;
 		}
 	}
+	
+	
 	
 
 }
