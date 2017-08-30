@@ -37,8 +37,11 @@
 		&-header{
 	        height: 65px;
 		}
+		&-header img{
+			margin-top: -17px;
+		}
 	    &-header span {
-		    margin-top: -50px;
+		    margin-top: -71px;
 		    font-size: 1em;
 		}
 		&-body {
@@ -65,9 +68,13 @@
 		right: 6%;
 		width: 52%;
 		height: auto;
+		.orange-btn{
+			width: 65%;
+		}
 	}
 	.main-block2 .main-block2-stats span {
 	    margin-bottom: 5px;
+	    width: 100%;
 	}
 	.main-block2 > span {
 	    font-size: 1.1em;
@@ -100,6 +107,9 @@
 		   		font-size: 0.5em;
 			}
 		}
+		ul li:first-child{
+			margin-left: 5px;
+		}
 	}
 	.main-block5{
 		overflow: hidden;
@@ -123,10 +133,10 @@
 	.main-block6 {
 		overflow: hidden;
 		&-text {
-			width: 58%;
+			width: 62% !important;
 		}
 		&-text span:nth-child(1) {
-	    	font-size: 1.1em !important;
+	    	font-size: 0.9em !important;
 	    }
 	    .main-block2-img span {
 	    	margin-top: 0px;
