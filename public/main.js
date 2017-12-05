@@ -1,15 +1,19 @@
-function modalFunction(){
+function modalFunction() {
 	var element = document.getElementById("modalf");
 	var shadeElem = document.getElementById("shade");
   	element.classList.add("visible");
   	shadeElem.classList.add("visible");
 }
-  
-function disableModal(){
+
+function disableModal() {
 	var element = document.getElementById("modalf");
 	var shadeElem = document.getElementById("shade");
   	element.classList.remove("visible");
   	shadeElem.classList.remove("visible");
+}
+
+function facebookStat() {
+	fbq('track', 'Lead');
 }
 
 document.addEventListener("DOMContentLoaded", function(event) { 
